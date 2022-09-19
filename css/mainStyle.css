@@ -26,6 +26,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-color: black;
 }
 ol, ul {
 	list-style: none;
@@ -44,15 +45,63 @@ table {
 }
 
 /* Eigen CSS */
+@font-face{
+	font-family: "Montserrat";
+	src: local("../font/Montserrat-Regular.ttf") ;
+}
+
 body{
     font-size: large;
+	font-family: 'Montserrat', sans-serif;
 }
+
 nav ul{
     display: flex;
+	background-color: black;
+	background-image: url("https://www.callofduty.com/content/dam/atvi/callofduty/global/global-nav/global-nav-bg.png");
+	background-size: 2px ;
+	text-shadow: 0px 0px 18px #646464;
+	
 }
 nav ul li{
     padding: 10px;
-    border: 1px black solid;
+	text-transform: uppercase;
+	width: 100%;
 }
 
+nav ul li a{
+	text-decoration: none;
+	color: #969696;
+	font-weight: bold;
+}
 
+nav ul li a img{
+	width: 35%;
+}
+.banner-container{
+	width: 100%;
+	z-index: 1;
+	background-image: "../img/5-24-ghost-hub-hero-desktop.jpg";
+}
+.section-left{
+	width: 30%;
+	padding: 4%;
+	display: inline-block;
+	z-index: 1;
+}
+.section-left img{
+	width: 70%;
+	margin: auto;
+	display: block;
+}
+.section-left p{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 100;
+	letter-spacing: 2px;
+	text-align: center;
+}
+.section-right{
+	width: 70%;
+	display: inline-block;
+}
