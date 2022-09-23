@@ -82,6 +82,17 @@ nav ul li a img{
 	width: 35%;
 }
 
+
+.dropdown{
+	position: absolute;
+	display: flex;
+	
+}
+
+
+
+
+
 .container {
 	display: table;
 	width: 100%;
