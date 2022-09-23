@@ -135,7 +135,11 @@ nav ul li a img{
 	margin-top: 15px;
 
 }
-.button{
-	
-	
-}	
+#Warzone_img{
+	display: block;
+	background-image: url("/img/WZ_HP_1920x722.jpg");
+	background-size: cover;
+	width: 1500px;
+	height: 675px;
+	margin: auto;
+}
