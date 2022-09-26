@@ -85,12 +85,8 @@ nav ul li a img{
 
 .dropdown{
 	position: absolute;
-	display: flex;
-	
+	display: block;
 }
-
-
-
 
 
 .container {
