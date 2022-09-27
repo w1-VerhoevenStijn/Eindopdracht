@@ -208,21 +208,6 @@ nav ul li a img {
 }
 
 /* Pagina 2 */
-#Warzone_img {
-  display: block;
-  background-image: url("/img/WZ_HP_1920x722.jpg");
-  background-size: cover;
-  width: 100%;
-  height: 675px;
-  margin: auto;
-}
-#Warzone_img img {
-  display: block;
-  width: 25%;
-  margin: auto;
-  padding-top: 425px;
-}
-
 #Warzone_img{
 	display: block;
 	background-image: url("/img/WZ_HP_1920x722.jpg");
@@ -237,6 +222,8 @@ nav ul li a img {
 	margin: auto;
 	padding-top: 425px;
 }
-#warzone_img button{
-	margin-left: 500px;
+
+.container .button{
+	display: block;
+	margin: auto;
 }
