@@ -269,6 +269,13 @@ nav ul li a img {
 }
 
 /* Pagina 2 */
+
+
+.container .button{
+	display: block;
+	margin: auto;
+}
+
 #Warzone_img {
   display: block;
   background-image: url("/img/WZ_HP_1920x722.jpg");
@@ -311,4 +318,9 @@ nav ul li a img {
 #blackops1 {
   height: 800px;
   display: block;
+<<<<<<< HEAD
 }
+=======
+ 
+}
+>>>>>>> 7602f7114572606f242ceb5871571ed2ab626625
