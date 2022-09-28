@@ -230,15 +230,18 @@ nav ul li a img {
 }
 #HomeWarezoneText{
   vertical-align: top;
-  padding: 20px;
 
 }
 #HomeWarezoneText h2{
   font-size: 30px;
   text-shadow: 0px 0px 18px #646464;
+  padding-left: 50px;
+  padding-top: 100px;
 }
 #HomeWarezoneText p{
   width:auto;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 /* Pagina 2 */
