@@ -270,9 +270,6 @@ nav ul li a img {
   padding-right: 40px;
 }
 
-
-
-
 /* Pagina 2 */
 
 
@@ -325,4 +322,19 @@ nav ul li a img {
   height: 800px;
   display: block;
  
+}
+
+/* Pagina 4: Coldwar */
+
+#Coldwar_img {
+  display: block;
+  background-image: url("/img/cod_black_ops_cold_war_cover.jpg");
+  width: 100%;
+  height: 672px;
+  margin: auto;
+}
+
+.container .buttonColdwar{
+	display: block;
+	margin: auto; 
 }
