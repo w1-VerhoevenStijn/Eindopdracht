@@ -139,7 +139,6 @@ body {
   color: white;
 }
 
-
 nav ul {
   display: flex;
   background-color: black;
@@ -151,6 +150,7 @@ nav ul li {
   padding: 10px;
   text-transform: uppercase;
   width: 100%;
+  padding-top: 15px;
 }
 
 nav ul li a {
@@ -171,33 +171,33 @@ nav ul li a img {
   padding: 0;
 }
 
-.cell-50{
-  display: flex;
-  width: 50%;
+.cell-50 {
+  display: inline-block;
+  width: 49%;
   margin: 0;
   padding: 0;
 }
 
-.cell-25{
+.cell-25 {
   display: inline-block;
   width: 25%;
   margin: 0;
   padding: 0;
 }
 
-.cell-75{
+.cell-75 {
   display: inline-block;
   width: 75%;
   margin: 0;
   padding: 0;
 }
-.cell-33{
+.cell-33 {
   display: inline-block;
   width: 33%;
   margin: 0;
   padding: 0;
 }
-.cell-66{
+.cell-66 {
   display: inline-block;
   width: 66%;
   margin: 0;
@@ -207,6 +207,8 @@ nav ul li a img {
 #banner {
   background-image: url("/img/5-24-ghost-hub-hero-desktop.jpg");
   height: 763px;
+  display: block;
+  background-size: cover;
 }
 
 #banner img {
@@ -225,32 +227,53 @@ nav ul li a img {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-#HomeWarezoneImg{
+.WarzoneHome {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+#HomeWarezoneImg {
   width: 100%;
 }
-#HomeWarezoneText{
+#HomeWarezoneText {
   vertical-align: top;
-
 }
-#HomeWarezoneText h2{
+#HomeWarezoneText h2 {
   font-size: 30px;
   text-shadow: 0px 0px 18px #646464;
-  padding-left: 50px;
-  padding-top: 100px;
+  padding: 50px 50px 20px 50px;
 }
-#HomeWarezoneText p{
-  width:auto;
-  padding-left: 50px;
-  padding-right: 50px;
+#HomeWarezoneText p {
+  text-shadow: 0px 0px 18px #646464;
+  font-size: 18px;
+  padding: 0px 50px 0px 50px;
+}
+.OtherGames {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.OtherGames div img {
+  display: block;
+  margin: auto;
+}
+.OtherGames div h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.OtherGames div h2,
+.OtherGames div p {
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 /* Pagina 2 */
 #Warzone_img {
   display: block;
   background-image: url("/img/WZ_HP_1920x722.jpg");
-  background-size: cover;
   width: 100%;
-  height: 675px;
+  height: 722px;
   margin: auto;
 }
 #Warzone_img img {
@@ -258,4 +281,34 @@ nav ul li a img {
   width: 25%;
   margin: auto;
   padding-top: 425px;
+}
+#VideoContainer {
+  padding-bottom: 400px;
+}
+#video {
+  clip-path: polygon(100% 0, 100% 25%, 83% 100%, 0 100%, 0 0);
+  width: 100%;
+}
+#WarezoneInfo {
+  vertical-align: top;
+  padding-top: 150px;
+}
+#WarezoneInfo h2,
+#WarezoneInfo p {
+  margin-left: 40px;
+  margin-right: 30px;
+}
+
+/* Pagina 3 */
+.bodyBlackops {
+  background-image: url("/img/wzm-home-bg.jpg");
+}
+#BannerBlackops {
+  background-image: url("/img/blackopsBanner.jpg");
+  height: 800px;
+  display: block;
+}
+#blackops1 {
+  height: 800px;
+  display: block;
 }
