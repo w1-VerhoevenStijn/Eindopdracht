@@ -149,9 +149,40 @@ nav ul {
 nav ul li {
   padding: 10px;
   text-transform: uppercase;
-  width: 100%;
+  width: 94.8%;
   padding-top: 15px;
 }
+li{
+  position: relative;
+  transition-duration: 0.5s;
+}
+
+li:hover,
+li:focus-within {
+  background: #222;
+  cursor: pointer;
+}
+nav ul li ul {
+  visibility: hidden;
+  /* min-width: 5rem; */
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+  width: 100%;
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+   visibility: visible;
+   opacity: 1;
+   display: block;
+   width: 100%;
+}
+
 
 nav ul li a {
   text-decoration: none;
@@ -163,6 +194,13 @@ nav ul li a {
 nav ul li a img {
   width: 35%;
 }
+nav ul li:hover a{
+  color: #70ac39;
+}
+.active{
+  color: #70ac39;
+}
+
 
 .container {
   display: block;
@@ -325,13 +363,64 @@ nav ul li a img {
 
 #Coldwar_img {
   display: block;
-  background-image: url("/img/cod_black_ops_cold_war_cover.jpg");
+  background-image: url("/img/zeus-s6-home-still-desktop.jpg");
   width: 100%;
-  height: 672px;
+  height: 710px;
   margin: auto;
 }
 
-.container .buttonColdwar{
-	display: block;
-	margin: auto; 
+#Coldwar_img img {
+  width: 25%;
+  margin-top: 250px;
+  margin-left: 20px;
 }
+
+#Coldwar_img h1 {
+  margin-top: 20px;
+  margin-left: 35px;
+  font-size: 23px;
+  color: #e5e3e3;
+}
+
+.container #ColdwarLeft p{
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #e5e3e3;
+}
+
+.container #ColdwarLeft img{
+  width: 100%;
+}
+
+.container #ColdwarRight p{
+  font-size: 50px;
+  font-weight: bold;
+  color: #e5e3e3;
+}
+
+.container #ColdwarRight img{
+  width: 100%;
+}
+
+.container #ColdwarPoster img{
+  width: 100%;
+}
+
+.container #ColdwarPoster h2{
+  color: #E5E3E3;
+  text-align: center;
+  margin: auto;
+  margin-top: -235px;
+  font-size: 35PX;
+  font-weight: bold;
+}
+.container #ColdwarPoster p{
+  color: #CDC4BD;
+  margin: auto;
+  font-size: 30px;
+  text-align: center;
+}
+
+
