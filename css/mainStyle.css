@@ -361,6 +361,7 @@ nav ul li:hover a{
 
 /* Pagina 4: Coldwar */
 
+
 #Coldwar_img {
   display: block;
   background-image: url("/img/zeus-s6-home-still-desktop.jpg");
@@ -374,7 +375,7 @@ nav ul li:hover a{
   margin-top: 250px;
   margin-left: 20px;
 }
-
+ 
 #Coldwar_img h1 {
   margin-top: 20px;
   margin-left: 35px;
@@ -423,4 +424,17 @@ nav ul li:hover a{
   text-align: center;
 }
 
-
+.container .cell-33 h1{
+  color: #E5E3E3;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+.container .cell-33 .video33{
+  margin: auto;
+}
+ .container .cell-33 .Blackopslogo{
+  width: 500px;
+  margin-left: 72px;
+  margin-top: -126;
+ }
