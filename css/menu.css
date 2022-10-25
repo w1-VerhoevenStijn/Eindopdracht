@@ -1,0 +1,202 @@
+/* Reset css */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  background-color: black;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Eigen CSS */
+@font-face {
+  font-family: "Montserrat";
+  src: local("../font/Montserrat-Regular.ttf");
+}
+body {
+    font-size: large;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: 100%;
+    color: white;
+  }
+  
+  nav ul {
+    display: flex;
+    background-color: black;
+    background-image: url("https://www.callofduty.com/content/dam/atvi/callofduty/global/global-nav/global-nav-bg.png");
+    background-size: 2px;
+    text-shadow: 0px 0px 18px #646464;
+  }
+  nav ul li {
+    padding: 10px;
+    text-transform: uppercase;
+    width: 94.8%;
+    padding-top: 15px;
+  }
+  li{
+    position: relative;
+    transition-duration: 0.5s;
+  }
+  
+  li:hover,
+  li:focus-within {
+    background: #222;
+    cursor: pointer;
+  }
+  nav ul li ul {
+    visibility: hidden;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+    width: 100%;
+  }
+  
+  ul li:hover > ul,
+  ul li:focus-within > ul,
+  ul li ul:hover,
+  ul li ul:focus {
+     visibility: visible;
+     opacity: 1;
+     display: block;
+     width: 100%;
+  }
+  
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #969696;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  nav ul li a img {
+    width: 35%;
+  }
+  nav ul li:hover a{
+    color: #70ac39;
+  }
+  .active{
+    color: #70ac39;
+  }
+  
+  

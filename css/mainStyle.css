@@ -164,7 +164,6 @@ li:focus-within {
 }
 nav ul li ul {
   visibility: hidden;
-  /* min-width: 5rem; */
   position: absolute;
   transition: all 0.5s ease;
   margin-top: 1rem;
@@ -242,20 +241,21 @@ nav ul li:hover a{
   padding: 0;
 }
 
-#banner {
+.bannerHome {
   background-image: url("/img/5-24-ghost-hub-hero-desktop.jpg");
   height: 763px;
   display: block;
   background-size: cover;
 }
-
-#banner img {
+.center{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.bannerHome img {
   padding-top: 200px;
 }
-#banner p {
+.bannerHome p {
   color: white;
   text-align: center;
   padding-left: 200px;
@@ -265,47 +265,47 @@ nav ul li:hover a{
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-.WarzoneHome {
+.margin75pxTopbottom{
   margin-top: 75px;
   margin-bottom: 75px;
 }
-#HomeWarezoneImg {
+
+.img100 {
   width: 100%;
 }
-#HomeWarezoneText {
+.verticalAlignTop{
   vertical-align: top;
 }
-#HomeWarezoneText h2 {
+.font30px{
   font-size: 30px;
+}
+.textshadow{
   text-shadow: 0px 0px 18px #646464;
+}
+.verticalAlignTop h2{
   padding: 50px 50px 20px 50px;
 }
-#HomeWarezoneText p {
-  text-shadow: 0px 0px 18px #646464;
-  font-size: 18px;
+.verticalAlignTop p{
   padding: 0px 50px 0px 50px;
+  font-size: 18px;
 }
-.OtherGames {
+.Reset{
   border: 0;
   padding: 0;
   margin: 0;
 }
-.OtherGames div img {
-  display: block;
-  margin: auto;
-}
-.OtherGames div h2 {
+
+.Reset div h2 {
   text-align: center;
   font-size: 30px;
 }
-
-.OtherGames div h2,
-.OtherGames div p {
+.Reset div h2,
+.Reset div p{
   padding: 10px;
   padding-left: 40px;
   padding-right: 40px;
+  text-shadow: 0px 0px 18px #646464;
 }
-
 /* Pagina 2 */
 
 
