@@ -149,7 +149,8 @@ nav ul {
 nav ul li {
   padding: 10px;
   text-transform: uppercase;
-  width: 94.8%;
+  width: 100%;
+  box-sizing: border-box;
   padding-top: 15px;
 }
 li{
