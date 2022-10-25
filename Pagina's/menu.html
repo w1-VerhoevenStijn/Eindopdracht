@@ -10,18 +10,43 @@
     </head>
     <body>
         <nav>
-            <ul>
-              <li><a href="../Pagina's/index.html"><img src="../img/cod-logo-white.svg" alt="" /></a></li>
-              <li><a href="../Pagina's/Warzone.html">Warzone</a></li>
-              <li><a href="../Pagina's/Blackops.html">Blackops</a>
-                <ul class="dropdown">
-                  <li><a href="#">Blackops 2</a></li>
-                  <li><a href="#">Blackops 3</a></li>
+            <label for="drop" class="toggle">Menu</label>
+            <input type="checkbox" id="drop" />
+                <ul class="menu">
+                    <li class="logo"><img src="../img/cod-logo-white.svg"></li>
+                    <li>
+                        <label for="drop-1" class="toggle">WordPress +</label>
+                        <a href="#">WordPress</a>
+                        <input type="checkbox" id="drop-1"/>
+                        <ul>
+                            <li><a href="#">Themes and stuff</a></li>
+                            <li><a href="#">Plugins</a></li>
+                            <li><a href="#">Tutorials</a></li>
+                        </ul> 
+                    </li>
+                    <li>
+                        <label for="drop-2" class="toggle">Web Design +</label>
+                        <a href="#">Web Design</a>
+                        <input type="checkbox" id="drop-2"/>
+                        <ul>
+                            <li><a href="#">Resources</a></li>
+                            <li><a href="#">Links</a></li>
+                            <li>     
+                            <label for="drop-3" class="toggle">Tutorials +</label>
+                            <a href="#">Tutorials</a>         
+                            <input type="checkbox" id="drop-3"/>
+                            <ul>
+                                <li><a href="#">HTML/CSS</a></li>
+                                <li><a href="#">jQuery</a></li>
+                                <li><a href="#">Other</a></li>
+                            </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Graphic Design</a></li>
+                    <li><a href="#">Graphic Design</a></li>
                 </ul>
-              </li>
-              <li><a href="../Pagina's/Coldwar.html">coldwar</a></li>
-              <li><a href="../Pagina's/ModernWarfare.html">Modern Warfare</a></li>
-            </ul>
-          </nav>
+            </nav>
     </body>
 </html>
+
