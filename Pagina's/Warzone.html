@@ -10,16 +10,44 @@
   </head>
   <body class="bodyBlackops">
     <nav>
-      <ul>
-        <li>
-          <a href="../Pagina's/index.html"><img src="../img/cod-logo-white.svg" alt="" /></a>
-        </li>
-        <li><a class="active" href="../Pagina's/Warzone.html">Warzone</a></li>
-        <li><a href="../Pagina's/Blackops.html">Blackops</a></li>
-        <li><a href="../Pagina's/Coldwar.html">coldwar</a></li>
-        <li><a href="../Pagina's/ModernWarfare.html">Modern warfare</a></li>
-      </ul>                         
-    </nav>
+      <label for="drop" class="toggle">Menu</label>
+      <input type="checkbox" id="drop" />
+          <ul class="menu">
+              <li class="logo"><img src="../img/cod-logo-white.svg"></li>
+              <li><a href="./index.html">Home</a></li>
+              <li>
+                  <label for="drop-1" class="toggle active">Warzone</label>
+                  <a href="./Warzone.html" class="active">Warzone</a>
+                  <input type="checkbox" id="drop-1"/>
+                  <ul>
+                      <li><a href="#">.....</a></li>
+                      <li><a href="#">.....</a></li>
+                      <li><a href="#">.....</a></li>
+                  </ul> 
+              </li>
+              <li>
+                  <label for="drop-2" class="toggle">Blackops</label>
+                  <a href="./Blackops.html">Blackops</a>
+                  <input type="checkbox" id="drop-2"/>
+                  <ul>
+                      <li><a href="#">Blackops 2</a></li>
+                      <li><a href="#">Blackops 3</a></li>
+                      <li>     
+                      <label for="drop-3" class="toggle">.....</label>
+                      <a href="#">......</a>         
+                      <input type="checkbox" id="drop-3"/>
+                      <ul>
+                          <li><a href="#">.....</a></li>
+                          <li><a href="#">.....</a></li>
+                          <li><a href="#">.....</a></li>
+                      </ul>
+                      </li>
+                  </ul>
+              </li>
+              <li><a href="./Coldwar.html">Cold Ware</a></li>
+              <li><a href="./ModernWarfare.html">Modern Warfare</a></li>
+          </ul>
+      </nav>
     <div class="container" id="Warzone_img">
         <img src="../img/PV_S05_WZ_LOGO_RGB_071622_NEG_NL.png"/>
     </div>

@@ -10,22 +10,43 @@
   </head>
   <body class="ModernWarfareBG">
     <nav>
-      <ul>
-        <li>
-          <a href="../Pagina's/index.html"><img src="../img/cod-logo-white.svg" alt="" /></a>
-        </li>
-        <li><a href="../Pagina's/Warzone.html">Warzone</a></li>
-        <li><a href="../Pagina's/Blackops.html">Blackops</a></li>
-        <li><a href="../Pagina's/Coldwar.html">coldwar</a></li>
-        <li><a href="#">Modern warfare</a></li>
-      </ul>
-      <div class="container">
-        <div class="ModernWarfareMini">
-        <img  src="../img/cod-mw2-logo.png"/>
-        <h1>Een team is het ultieme wapen.</h1>
-        <h1>vecht samen met de iconische <br>operators van Task Force 141.</h1>
-        </div>
-      </div>
-    </nav>
+      <label for="drop" class="toggle">Menu</label>
+      <input type="checkbox" id="drop" />
+          <ul class="menu">
+              <li class="logo"><img src="../img/cod-logo-white.svg"></li>
+              <li><a href="./index.html">Home</a></li>
+              <li>
+                  <label for="drop-1" class="toggle">Warzone</label>
+                  <a href="./Warzone.html">Warzone</a>
+                  <input type="checkbox" id="drop-1"/>
+                  <ul>
+                      <li><a href="#">.....</a></li>
+                      <li><a href="#">.....</a></li>
+                      <li><a href="#">.....</a></li>
+                  </ul> 
+              </li>
+              <li>
+                  <label for="drop-2" class="toggle">Blackops</label>
+                  <a href="./Blackops.html">Blackops</a>
+                  <input type="checkbox" id="drop-2"/>
+                  <ul>
+                      <li><a href="#">Blackops 2</a></li>
+                      <li><a href="#">Blackops 3</a></li>
+                      <li>     
+                      <label for="drop-3" class="toggle">.....</label>
+                      <a href="#">......</a>         
+                      <input type="checkbox" id="drop-3"/>
+                      <ul>
+                          <li><a href="#">.....</a></li>
+                          <li><a href="#">.....</a></li>
+                          <li><a href="#">.....</a></li>
+                      </ul>
+                      </li>
+                  </ul>
+              </li>
+              <li><a href="./Coldwar.html">Cold Ware</a></li>
+              <li><a href="./ModernWarfare.html" class="active">Modern Warfare</a></li>
+          </ul>
+      </nav>
   </body>
 </html>
