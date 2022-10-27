@@ -509,7 +509,6 @@ li > a:only-child:after { content: ''; }
   .Reset img{
     width: 100%;
   }
-  /* pagina 2 */
 
   
 }
@@ -544,6 +543,30 @@ li > a:only-child:after { content: ''; }
   margin-left: 40px;
   margin-right: 30px;
 }
+@media all and (max-width : 480px) {
+
+  .Warzone_img{
+    height: 400px;
+  }
+  .Warzone_img img{
+    padding-top: 150px;
+    width: 50%;;
+  }
+  .video{
+    clip-path: none;
+  }
+  .WarezoneInfo{
+    padding-top: 20px;
+  }
+  .WarezoneInfo h2{
+    font-size: 23px;
+    font-weight: bold;
+  }
+  .VideoContainer{
+    padding-bottom: 50px;
+  }
+}
+
 
 /* Pagina 3 */
 .bodyBlackops {
@@ -553,6 +576,14 @@ li > a:only-child:after { content: ''; }
   background-image: url("/img/blackopsBanner.jpg");
   height: 800px;
   display: block;
+}
+@media all and (max-width : 480px) {
+  .BannerBlackops{
+    width: 100%;
+    background-size: cover;
+    height: 200px;
+    margin-bottom: 20px;
+  }
 }
 
 /* Pagina 4: Coldwar */
