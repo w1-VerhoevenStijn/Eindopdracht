@@ -572,11 +572,13 @@ li > a:only-child:after { content: ''; }
 .bodyBlackops {
   background-image: url("/img/wzm-home-bg.jpg");
 }
+
 .BannerBlackops {
   background-image: url("/img/blackopsBanner.jpg");
   height: 800px;
   display: block;
 }
+
 @media all and (max-width : 480px) {
   .BannerBlackops{
     width: 100%;
@@ -774,7 +776,7 @@ input, textarea {
   button:hover {
   background: #3e4f24;
   } 
-  @media (min-width: 568px) {
+  @media (min-width: 480px) {
   .decor {
   width: 60%;
   }
