@@ -830,3 +830,17 @@ input, textarea {
   width: 60%;
   }
   }
+
+  .scale {
+    padding: 5px 10px;
+    background: url('/img/zeus-trailer-thumb-left.jpg') no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    transition: .3s all ease-in-out;
+    height: 425px;
+    width: 100%;
+}
+
+.scale:hover {
+    background-size: 150% auto;
+}
