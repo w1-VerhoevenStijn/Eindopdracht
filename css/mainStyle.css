@@ -232,13 +232,6 @@ li > a:only-child:after { content: ''; }
 
 @media all and (max-width : 768px) {
 
-	#logo {
-		display: block;
-		padding: 0;
-		width: 100%;
-		text-align: center;
-	}
-
 	nav {
 		margin: 0;
 	}
@@ -417,7 +410,7 @@ li > a:only-child:after { content: ''; }
   text-shadow: 0px 0px 18px #646464;
 }
 .verticalAlignTop h2{
-  padding: 50px 50px 20px 50px;
+  padding: 10px 50px 10px 50px;
 }
 .verticalAlignTop p{
   padding: 0px 50px 0px 50px;
@@ -444,6 +437,48 @@ li > a:only-child:after { content: ''; }
   width: 100%;
 }
 
+footer{
+  background-color: #3e4f24;
+  margin-top: 50px;
+  height: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-image: url(../img/wzm-home-bg.jpg);
+  background-size: cover;
+}
+.footerlogo{
+  width: 40%;
+  vertical-align:middle;
+}
+footer .cell-33{
+vertical-align: middle;
+}
+footer a{
+  display: inline-block;
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+footer a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #7ac32c;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+footer a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 @media all and (max-width : 480px) {
   body{
     font-size: 20px;
@@ -463,7 +498,7 @@ li > a:only-child:after { content: ''; }
   
   .cell-25 {
     display: inline-block;
-    width: 250%;
+    width: 50%;
     margin: 0;
     padding: 0;
   }
@@ -528,7 +563,7 @@ li > a:only-child:after { content: ''; }
   padding-top: 425px;
 }
 .VideoContainer {
-  padding-bottom: 400px;
+  padding-bottom: 200px;
 }
 .video {
   clip-path: polygon(100% 0, 100% 25%, 83% 100%, 0 100%, 0 0);
@@ -536,7 +571,7 @@ li > a:only-child:after { content: ''; }
 }
 .WarezoneInfo {
   vertical-align: top;
-  padding-top: 150px;
+  padding-top: 20px;
 }
 .WarezoneInfo h2,
 .WarezoneInfo p {
