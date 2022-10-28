@@ -653,7 +653,7 @@ footer a:hover:after {
  
 .Coldwar_img h1 {
   margin-top: 20px;
-  margin-left: -1200px;
+  /* margin-left: -1370px; */
   font-size: 23px;
   color: #e5e3e3;
 }
@@ -687,21 +687,62 @@ footer a:hover:after {
   text-align: center;
 }
 
-.container .cell-33 h1{
-  color: #E5E3E3;
-  font-size: 35px;
+.zeus h2{
+  font-size: 30px;
   text-align: center;
-  font-weight: bold;
-  margin: auto;
 }
-.container .cell-33 p{
-  color: #E5E3E3;
-  font-size: 25px;
-  text-align: center;
-  margin: auto;
+.zeus img{
+  width: 65%;
+  margin-left: 165px;
+}
+.scale {
+  padding: 5px 10px;
+  background: url('/img/zeus-trailer-thumb-left.jpg') no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  transition: .3s all ease-in-out;
+  height: 425px;
+  width: 100%;
 }
 
-/* ModernWarfare pagina. */
+.scale:hover {
+  background-size: 110% auto;
+}
+@media all and (max-width : 480px) {
+  .Coldwar_img{
+    background-size: cover;
+    height: 200px;
+  }
+  .Coldwar_img img{
+    margin-top: 50px;
+  }
+  .Coldwar_img h1{
+    font-size: 13px;
+    margin-left: 20px;
+  }
+  .Coldwar_img h1+h1{
+    margin-left: 20px !important;
+    margin: 0;
+  }
+  .scale{
+    height: 215px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .zeus img{
+    margin: 0;
+    width: 100%;
+  }
+  .container .ColdwarPoster h2{
+    margin-top: 0;
+    font-size: 25px;;
+  }
+  .container .ColdwarPoster p{
+    font-size: 20px;
+    text-align: center;
+  }
+}
+/* Pagina 5 */
 .ModernWarfareBG {
   background-image: url("/img/MW.jpg");
   width: 100%;
@@ -713,12 +754,13 @@ footer a:hover:after {
 }
 .container .ModernWarfareMini img, h1{
   margin-top: 50px;
-  margin-left: 1000px;
   font-size: 36px;
-  text-align: center;
   color: #e5e3e3;
+  margin-left: 50px;
 }
-
+.container .ModernWarfareMini img, p{
+  margin-left: 50px;
+}
 input, textarea { 
   outline: none;
   }
@@ -740,7 +782,16 @@ input, textarea {
   .Text{
     margin-left: -15px;
   }
-
+form{
+  animation: move 5s infinite;
+}
+@keyframes move{
+  0%   { left:0px; top:0px;}
+  25%  { left:100px; top:0px;}
+  50%  { left:100px; top:100px;}
+  75%  { left:0px; top:100px;}
+  100% { left:0px; top:0px;}
+}
   .form-left-decoration,
   .form-right-decoration {
   content: "";
@@ -829,18 +880,21 @@ input, textarea {
   .decor {
   width: 60%;
   }
+  
   }
-
-  .scale {
-    padding: 5px 10px;
-    background: url('/img/zeus-trailer-thumb-left.jpg') no-repeat;
-    background-size: 100% auto;
-    background-position: center;
-    transition: .3s all ease-in-out;
-    height: 425px;
-    width: 100%;
-}
-
-.scale:hover {
-    background-size: 150% auto;
-}
+  @media all and (max-width : 480px){
+    .ModernWarfareBG{
+      height: 500px;
+      background-size: cover;
+    }
+    form{
+      animation: none;
+    }
+    .Contactus{
+      margin:0;
+    }
+    .decor{
+      margin-left: 10%;
+      margin-top: 10%;
+    }
+  }
