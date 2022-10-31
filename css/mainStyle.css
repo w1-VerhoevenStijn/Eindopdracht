@@ -417,6 +417,9 @@ li > a:only-child:after { content: ''; }
   padding: 0px 50px 0px 50px;
   font-size: 18px;
 }
+.margintop20px{
+  margin-top: 20px;
+}
 .Reset{
   border: 0;
   padding: 0;
@@ -544,6 +547,7 @@ footer a:hover:after {
   .bannerHome p{
     padding-left: 10px;
     padding-right: 10px;
+    margin: 0;
   }
   .verticalAlignTop h2{
     padding: 20px 20px 20px 20px;
@@ -551,9 +555,16 @@ footer a:hover:after {
   }
   .verticalAlignTop p{
     padding-bottom: 50px;
+    margin: 0;
   }
   .Reset img{
     width: 100%;
+  }
+  .Reset div h2, .Reset div p{
+    margin: 0;
+  }
+  .container .ModernWarfareMini img, p{
+    margin-bottom: 10px;
   }
 
   
@@ -574,7 +585,7 @@ footer a:hover:after {
   padding-top: 425px;
 }
 .VideoContainer {
-  padding-bottom: 200px;
+  padding-bottom: 50px;
 }
 .video {
   clip-path: polygon(100% 0, 100% 25%, 83% 100%, 0 100%, 0 0);
@@ -767,7 +778,8 @@ input, textarea {
 
   .Contactus {
   margin-top: -22px;
-  margin-left: -275px;
+  margin-left:0px;
+  margin-bottom: 20px;
   font-weight: 500;
   color: #222;
   }
